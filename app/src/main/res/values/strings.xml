@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">EcommerceTask</string>
     <string name="networkLost">Network lost</string>
+    <string name="home">Home</string>
+    <string name="orders">Orders</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="whatYouWouldLikeToBuy">What you would like to buy?</string>
+    <string name="viewAll">View all</string>
+    <string name="seeAll">See all</string>
+    <string name="seeMore">See more</string>
+    <string name="relatedProducts">Related products</string>
+    <string name="selectPreference">Select preference</string>
 </resources>

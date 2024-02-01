@@ -1,8 +1,10 @@
 package com.medical.ecommercetask.util.helper
 
 import com.medical.ecommercetask.BuildConfig
+import com.medical.ecommercetask.R
 
 object Constants {
+    val placeholderImg = R.drawable.place_holder
     const val appVersion = "android-".plus(BuildConfig.VERSION_CODE)
     const val BASE_URL = "https://halazon.hudhudclient.com/Api/"
     const val auth =

@@ -85,16 +85,8 @@ dependencies {
     implementation libs.glide
     annotationProcessor libs.compiler
 
-    //location
-    implementation libs.play.services.location
-    implementation libs.play.services.maps
-
-    //lottie
-    implementation libs.lottie
-
-    //biometric
-    implementation libs.androidx.security.crypto
-    implementation libs.androidx.biometric.ktx
+    //thumb
+    implementation libs.viewpagerdotsindicator
 
     //fireBase
     implementation libs.play.services.auth
