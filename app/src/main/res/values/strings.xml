@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EcommerceTask</string>
+    <string name="networkLost">Network lost</string>
+</resources>

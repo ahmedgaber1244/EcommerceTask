@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="off_white">#EAE9E7</color>
+    <color name="maastrichtBlue">#0D2237</color>
+    <color name="gunmetal">#282D40</color>
+    <color name="lava">#CE1414</color>
+    <color name="darkTangerine">#FC9B19</color>
+    <color name="lightGray">#D5D5D5</color>
+    <color name="cultured">#CDF5F5F5</color>
+    <color name="seaSerpent">#5CC3D9</color>
+    <color name="blueLight">#702196F3</color>
+    <color name="coralRed">#FE392D</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

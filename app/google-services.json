@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767674729715",
+    "project_id": "e-commerce-task-34e1e",
+    "storage_bucket": "e-commerce-task-34e1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767674729715:android:1fa01eaac74cea9564a386",
+        "android_client_info": {
+          "package_name": "com.medical.ecommercetask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBItqOQYPLyZgmvHm0TJjiYIRsX-FRyfQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
