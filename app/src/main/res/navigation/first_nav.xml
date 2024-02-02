@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/first_nav.xml">
+    android:id="@+id/first_nav.xml"
+    app:startDestination="@id/homeBaseFragment">
 
+    <fragment
+        android:id="@+id/homeBaseFragment"
+        android:name="com.ecommerce.task.ui.homeBase.HomeBaseFragment"
+        android:label="HomeBaseFragment" />
 </navigation>

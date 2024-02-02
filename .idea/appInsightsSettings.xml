@@ -27,8 +27,8 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.medical.ecommercetask" />
-                  <option name="mobileSdkAppId" value="1:767674729715:android:1fa01eaac74cea9564a386" />
+                  <option name="appId" value="com.ecommerce.task" />
+                  <option name="mobileSdkAppId" value="1:767674729715:android:1573c47e7cf1486e64a386" />
                   <option name="projectId" value="e-commerce-task-34e1e" />
                   <option name="projectNumber" value="767674729715" />
                 </ConnectionSetting>

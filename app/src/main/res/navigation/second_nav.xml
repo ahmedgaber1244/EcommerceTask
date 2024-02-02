@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/second_nav.xml">
+    android:id="@+id/second_nav.xml"
+    app:startDestination="@id/home">
 
+    <fragment
+        android:id="@+id/home"
+        android:name="com.ecommerce.task.ui.home.Home"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home2_to_productDetails"
+            app:destination="@id/productDetails" />
+        <action
+            android:id="@+id/action_home2_to_cartCheckout"
+            app:destination="@id/cartCheckout" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartCheckout"
+        android:name="com.ecommerce.task.ui.cartCheckout.CartCheckout"
+        android:label="CartCheckout">
+        <action
+            android:id="@+id/action_cartCheckout_to_checkout2"
+            app:destination="@id/checkout2"
+            app:popUpTo="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkout2"
+        android:name="com.ecommerce.task.ui.checkout.Checkout"
+        android:label="Checkout" />
+    <fragment
+        android:id="@+id/productDetails"
+        android:name="com.ecommerce.task.ui.productDetails.ProductDetails"
+        android:label="ProductDetails">
+        <argument
+            android:name="productId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_productDetails_self"
+            app:destination="@id/productDetails"
+            app:popUpTo="@id/home" />
+    </fragment>
 </navigation>

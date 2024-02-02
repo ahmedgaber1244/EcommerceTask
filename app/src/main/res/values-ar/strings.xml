@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcommerceTask</string>
+    <string name="networkLost">لا يوجد اتصال بالانترنت</string>
+    <string name="home">الرئيسية</string>
+    <string name="orders">الطلبات</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="profile">الحساب الشخصي</string>
+    <string name="whatYouWouldLikeToBuy">ماذا تريد أن تشتري؟</string>
+    <string name="viewAll">عرض الكل</string>
+    <string name="seeAll">اظهار الكل</string>
+    <string name="seeMore">شاهد المزيد</string>
+    <string name="relatedProducts">منتجات ذات صله</string>
+    <string name="selectPreference">اختر التفاصيل</string>
+    <string name="cart">السلة</string>
+    <string name="subtotal">المجموع الفرعي</string>
+    <string name="discount">الخصم</string>
+    <string name="delivery">التوصيل</string>
+    <string name="total">الاجمالي</string>
+    <string name="checkout">الدفع</string>
+    <string name="jd">دأ</string>
+    <string name="almostDone">على وشك الانتهاء</string>
+    <string name="deliveryDetails">تفاصيل التسليم</string>
+    <string name="submit">تأكيد</string>
+    <string name="fullName">الاسم كامل</string>
+    <string name="jordanPhoneCode">+962</string>
+    <string name="phoneNumber">رقم الهاتف</string>
+    <string name="payment">الدفع</string>
+    <string name="cashOnDelivery">الدفع عند الاستلام</string>
+    <string name="creditCard">الكروت البنكية</string>
+    <string name="promoCode">كود الخصم</string>
+    <string name="apply">تأكيد</string>
+    <string name="noData">لا يوجد بيانات</string>
+    <string name="somethingWentWrong">هنالك مشكلة</string>
+    <string name="addToBasket">اضف الى السلة</string>
+    <string name="qty">الكمية</string>
+    <string name="pleaseAddPhoneNumber">من فضلك اضف رقم هاتف صحيح</string>
+    <string name="pleaseAddYourName">من فضلك اضف الاسم بالكامل</string>
+</resources>

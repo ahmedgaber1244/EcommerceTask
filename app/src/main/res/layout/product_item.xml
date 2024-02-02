@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
+
         <import type="android.view.View" />
 
         <variable
             name="data"
-            type="com.medical.ecommercetask.data.model.Product" />
+            type="com.ecommerce.task.data.model.GetHomeData" />
+
+        <variable
+            name="clickEvents"
+            type="com.ecommerce.task.ui.home.ProductsClickEvents" />
 
         <variable
             name="added"
@@ -29,6 +34,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
+            android:onClick="@{()->clickEvents.select(data)}"
             app:cardCornerRadius="21dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +51,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/product_placeholder"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -57,6 +62,7 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/custom_button2"
+                    android:onClick="@{()->clickEvents.fav(data)}"
                     android:padding="8sp"
                     android:src="@{fav?@drawable/fill_heart:@drawable/heart_small}"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -90,7 +96,7 @@
                         <TextView
                             android:id="@+id/textView5"
                             style="@style/lightTitle"
-                            setProductName="@{data}"
+                            setProductDesc="@{data}"
                             android:layout_marginTop="4dp"
                             app:layout_constraintStart_toStartOf="@+id/textView4"
                             app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -98,7 +104,7 @@
                         <TextView
                             android:id="@+id/textView6"
                             style="@style/tangerineRegularTitle"
-                            setProductName="@{data}"
+                            setProductPrice="@{data}"
                             android:layout_marginTop="8dp"
                             android:layout_marginBottom="8dp"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -110,6 +116,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
                             android:background="@null"
+                            android:onClick="@{()->clickEvents.addToCart(data)}"
                             android:src="@drawable/add"
                             android:visibility="@{!added?View.VISIBLE:View.GONE}"
                             app:layout_constraintBottom_toBottomOf="@+id/textView6"

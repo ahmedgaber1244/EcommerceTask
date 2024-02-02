@@ -16,6 +16,14 @@
         <item name="android:textSize">25sp</item>
     </style>
 
+    <style name="midBoldTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/maastrichtBlue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
     <style name="mediumTitle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -45,6 +53,31 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/poppins_medium</item>
         <item name="android:textColor">@color/maastrichtBlue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/philippineSilver</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/maastrichtBlue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="tangerineValue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/darkTangerine</item>
         <item name="android:textSize">15sp</item>
     </style>
 
@@ -104,5 +137,25 @@
         <item name="android:textColor">@color/darkTangerine</item>
         <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tangerineBoldTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:textColor">@color/darkTangerine</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="primaryButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/custom_button3</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:paddingEnd">32dp</item>
     </style>
 </resources>

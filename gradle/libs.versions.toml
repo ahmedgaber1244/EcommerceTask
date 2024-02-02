@@ -10,6 +10,7 @@ firebase-bom = "32.7.0"
 firebase-crashlytics-gradle = "2.9.9"
 glide = "4.15.0"
 google-services = "4.4.0"
+gson = "2.10.1"
 hamcrest-all = "1.3"
 hilt-android = "2.48"
 hilt-work = "1.1.0"
@@ -20,6 +21,8 @@ espresso-core = "3.5.1"
 appcompat = "1.6.1"
 kotlin-stdlib = "1.9.0"
 kotlinx-metadata-jvm = "0.5.0"
+lifecycle-viewmodel-ktx = "2.7.0"
+lifecycle-livedata-ktx = "2.7.0"
 logging-interceptor = "5.0.0-alpha.6"
 lottie = "5.2.0"
 material = "1.11.0"
@@ -68,6 +71,7 @@ firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "fir
 firebase-crashlytics-gradle = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "firebase-crashlytics-gradle" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 google-services = { module = "com.google.gms:google-services", version.ref = "google-services" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 hamcrest-all = { module = "org.hamcrest:hamcrest-all", version.ref = "hamcrest-all" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt-android" }
 hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt-android" }

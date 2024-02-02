@@ -9,11 +9,11 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 
 android {
-    namespace 'com.medical.ecommercetask'
+    namespace 'com.ecommerce.task'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.medical.ecommercetask"
+        applicationId "com.ecommerce.task"
         minSdk 21
         targetSdk 34
         versionCode 1
@@ -87,6 +87,12 @@ dependencies {
 
     //thumb
     implementation libs.viewpagerdotsindicator
+
+    //gson
+    implementation libs.gson
+
+    //paging
+    implementation libs.androidx.paging.runtime.ktx
 
     //fireBase
     implementation libs.play.services.auth

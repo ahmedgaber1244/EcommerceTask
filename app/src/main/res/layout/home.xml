@@ -2,6 +2,15 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="cartTotalItems"
+            type="Integer" />
+    </data>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,8 +28,23 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/custom_button4"
+            android:gravity="center"
+            android:text="@{String.valueOf(cartTotalItems)}"
+            android:visibility="@{cartTotalItems>0?View.VISIBLE:View.GONE}"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:elevation="1dp"
+            app:layout_constraintEnd_toEndOf="@+id/cart"
+            app:layout_constraintTop_toTopOf="@+id/cart" />
+
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/cart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
@@ -38,15 +62,18 @@
             android:background="@null"
             android:padding="16dp"
             android:src="@drawable/magnifier"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintEnd_toStartOf="@+id/cart"
             app:layout_constraintTop_toTopOf="@+id/textView" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="8dp"
+            android:clipToPadding="false"
+            android:paddingBottom="80dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />

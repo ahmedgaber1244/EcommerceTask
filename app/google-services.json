@@ -7,9 +7,28 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:767674729715:android:1573c47e7cf1486e64a386",
+        "android_client_info": {
+          "package_name": "com.ecommerce.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBItqOQYPLyZgmvHm0TJjiYIRsX-FRyfQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:767674729715:android:1fa01eaac74cea9564a386",
         "android_client_info": {
-          "package_name": "com.medical.ecommercetask"
+          "package_name": "com.ecommerce.task"
         }
       },
       "oauth_client": [],

@@ -10,7 +10,8 @@
        <KeyFrameSet>
        </KeyFrameSet>
         <OnSwipe motion:dragDirection="dragUp"
-            motion:touchAnchorId="@id/constraintLayout2" />
+            motion:touchAnchorId="@id/constraintLayout2"
+            motion:touchAnchorSide="top" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">

@@ -7,7 +7,7 @@
 
         <variable
             name="data"
-            type="com.medical.ecommercetask.data.model.GetHome" />
+            type="com.ecommerce.task.data.model.GetHome" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -32,6 +32,7 @@
             app:layout_constraintTop_toTopOf="@+id/textView2" />
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
